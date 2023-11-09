@@ -19,6 +19,8 @@ A plugin to test WP revisions with arrays.
 
 A plugin to test WP revisions with arrays.
 
+See https://core.trac.wordpress.org/ticket/59827.
+
 == Installation ==
 
 == Frequently Asked Questions ==
