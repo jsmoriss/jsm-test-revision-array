@@ -39,7 +39,7 @@ if ( ! class_exists( 'JsmTestRevisionArray' ) ) {
 		private $meta_key = '_random_array';
 
 		public function __construct() {
-			
+
 			add_action( 'wp_loaded', array( $this, 'wp_loaded' ) );
 		}
 
@@ -52,14 +52,14 @@ if ( ! class_exists( 'JsmTestRevisionArray' ) ) {
 
 			return self::$instance;
 		}
-		
+
 		public function wp_loaded() {
 
 			$this->register_meta( $object_type = 'post', $this->meta_key );
 
 			add_action( 'current_screen', array( $this, 'current_screen' ), 100, 1 );
 		}
-		
+
 		public function current_screen( $screen = false ) {
 
 			if ( empty( $screen->id ) || 'page' !== $screen->id ) {
@@ -80,7 +80,7 @@ if ( ! class_exists( 'JsmTestRevisionArray' ) ) {
 
 			update_metadata( 'post', $post_id, $this->meta_key, $meta_value );
 		}
-		
+
 		protected function register_meta( $object_type, $meta_key ) {
 
 			register_meta( $object_type, $meta_key, $args = array(
