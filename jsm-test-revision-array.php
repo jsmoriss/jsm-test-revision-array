@@ -83,9 +83,11 @@ if ( ! class_exists( 'JsmTestRevisionArray' ) ) {
 
 		protected function register_meta( $object_type, $meta_key ) {
 
+			$meta_title = _x( 'JSM Test Revision Array', 'meta title', 'jsm-test-revision-array' );
+
 			register_meta( $object_type, $meta_key, $args = array(
 				'type'              => 'array',
-				'description'       => 'WPSSO meta options array.',
+				'description'       => $meta_title,
 				'default'           => array(),
 				'single'            => true,
 				'sanitize_callback' => null,
