@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.2.34
 Requires At Least: 5.5
 Tested Up To: 6.4.0
-Stable Tag: 1.0.0
+Stable Tag: 1.0.1
 
 A plugin to test WP revisions with arrays.
 
@@ -45,12 +45,12 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.0.0 (TBD)**
+**Version 1.0.1 (2023/11/19)**
 
 * **New Features**
 	* None.
 * **Improvements**
-	* None.
+	* Fixed `register_meta()` 'description' value.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
@@ -61,7 +61,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.0.0 =
+= 1.0.1 =
 
-(TBD) None.
+(2023/11/19) Fixed `register_meta()` 'description' value.
 
