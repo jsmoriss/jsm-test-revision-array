@@ -3,8 +3,8 @@
  * Plugin Name: JSM Test Revision Array
  * Text Domain: jsm-test-revision-array
  * Domain Path: /languages
- * Plugin URI: 
- * Assets URI: 
+ * Plugin URI:
+ * Assets URI:
  * Author: JS Morisset
  * Author URI: https://surniaulula.com/
  * License: GPLv3
