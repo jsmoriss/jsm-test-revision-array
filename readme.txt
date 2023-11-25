@@ -5,8 +5,8 @@ Text Domain: jsm-test-revision-array
 Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
-Assets URI: 
-Tags: 
+Assets URI:
+Tags:
 Contributors: jsmoriss
 Requires PHP: 7.2.34
 Requires At Least: 5.5
