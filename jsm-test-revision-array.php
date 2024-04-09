@@ -12,7 +12,7 @@
  * Description: A plugin to test WP revisions with arrays.
  * Requires PHP: 7.2.34
  * Requires At Least: 5.8
- * Tested Up To: 6.5.0
+ * Tested Up To: 6.5.2
  * Version: 1.0.1
  *
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
