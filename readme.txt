@@ -10,7 +10,7 @@ Tags:
 Contributors: jsmoriss
 Requires PHP: 7.2.34
 Requires At Least: 5.8
-Tested Up To: 6.5.2
+Tested Up To: 6.5.3
 Stable Tag: 1.0.1
 
 A plugin to test WP revisions with arrays.
